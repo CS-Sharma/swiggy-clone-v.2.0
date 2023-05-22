@@ -1,0 +1,265 @@
+* body {
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    height: 844px;
+    width: 390px;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#back-button {
+    position: absolute;
+    display: inline-block;
+    height: 28px;
+    width: 28px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#search-button {
+    position: absolute;
+    display: inline-block;
+    height: 28px;
+    width: 28px;
+    margin-left: 345px;
+    margin-top: 10px;
+}
+
+#mast-head {
+    width: 390px;
+    height: 390px;
+}
+
+#landing-image {
+    display: block;
+    position: absolute;
+    width: 390px;
+    height: 390x;
+    margin: 0 auto;
+}
+
+#heading {
+    position: relative;
+    top: 235px;
+    left: 20px;
+    font-size: 42px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+#heading p {
+    margin: 0;
+    text-shadow: 0px 3px 20px rgba(0, 0, 0, 0.48);
+}
+
+#offer {
+    position: relative;
+    font-size: 0.8em;
+    top: 235px;
+    left: 20px;
+    color: white;
+    text-shadow: 0px 3px 20px rgba(0, 0, 0, 0.48);
+}
+
+.dishes {
+    display: block;
+    color: black;
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+.dishes img {
+    height: 80px;
+    border-radius: 40px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.dishes p {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.item {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    margin-left: 7px;
+    margin-right: 7px;
+    font-weight: 600;
+    color: rgb(74, 74, 74);
+    cursor: pointer;
+}
+
+.btn-group button {
+    background-color: white;
+    border: 1px solid grey;
+    color: black;
+    padding: 7px 12px;
+    border-radius: 14px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-left: 4px;
+    margin-right: 4px;
+    cursor: pointer;
+    font-size: 0.7em;
+    font-weight: 700;
+}
+
+.restaurants-title {
+    display: block;
+    margin-top: 30px;
+    color: black;
+    font-size: 1em;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.restaurants {
+    display: block;
+    margin-top: 30px;
+    color: black;
+    font-size: 0.9em;
+    font-weight: 700;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.restaurant-picture {
+    position: absolute;
+    height: 137px;
+    width: 112px;
+    border-radius: 10px;
+    background: #e0e0e0;
+    box-shadow: -18px 18px 38px #d9d9d9,
+}
+
+.restaurant-detail {
+    position: relative;
+    margin-left: 132px;
+    font-size: 1em;
+}
+
+.dot-menu img {
+    position: absolute;
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    margin-left: 95%;
+}
+
+.restaurant-star {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    margin-left: 0;
+}
+
+.restaurant-rating :nth-child(2) {
+    position: relative;
+    margin-left: 22px;
+    font-weight: 600;
+}
+
+.restaurant-detail :nth-child(3) {
+    color: rgb(110, 110, 110);
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+.restaurant-detail :nth-child(3) p {
+    margin: 0px;
+    margin-top: 5px;
+}
+
+.restaurant-detail :nth-child(4) img {
+    position: absolute;
+    height: 25px;
+    margin-top: 5px;
+    margin-left: 75%;
+
+}
+
+.restaurant-detail :nth-child(4) p {
+    position: relative;
+    margin: 0;
+    margin-top: 7px;
+    color: #f15c55;
+}
+
+.brand-sponcer {
+    position: inherit;
+    display: block;
+    margin-top: 25px;
+    height: 250px;
+    width: 100%;
+    background-color: rgb(1, 43, 33);
+    color: white;
+}
+
+.brand-sponcer-title {
+    top: 10px
+}
+
+.brand-sponcer :first-child {
+    position: relative;
+    left: 7.5px;
+    font-weight: 600;
+    font-size: 0.9em;
+}
+
+.brand-sponcer-detail {
+    display: inline-block;
+    font-size: 0.9em;
+    margin-top: 7.5px;
+}
+
+.brand-sponcer-detail p {
+    margin: 0;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+
+}
+
+.brand-sponcer-detail :first-child img {
+    position: relative;
+    height: 137px;
+    width: 112px;
+    border-radius: 10px;
+    background: #e0e0e0;
+    box-shadow: -18px 18px 38px #d9d9d9,
+}
+
+.brand-sponcer-detail :nth-child(3) {
+    position: absolute
+}
+
+
+.brand-sponcer-detail :nth-child(3) img {
+    position: absolute;
+    margin-top: 5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 9px;
+    margin-left: 10px;
+}
+
+.brand-sponcer-detail :nth-child(3) p {
+    margin: 0;
+    margin-top: 5px;
+    margin-left: 37px;
+    font-size: 0.7em;
+}
+
+.brand-sponcer-detail :nth-child(4) p {
+    margin-top: 24px;
+    font-size: 0.6em;
+    font-weight: 400;
+    color: rgb(167, 167, 167);
+}
